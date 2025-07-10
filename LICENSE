@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
---add-opens=java.base/java.io=ALL-UNNAMED
--Xbootclasspath/a:/Users/changjoonbaek/github_socketInterceptorAgent/SocketInterceptorAgent/target/SocketInterceptorAgent-1.0-SNAPSHOT.jar
--javaagent:/Users/changjoonbaek/github_socketInterceptorAgent/SocketInterceptorAgent/target/SocketInterceptorAgent-1.0-SNAPSHOT.jar=logFile=/Users/changjoonbaek/github_socketInterceptorAgent/SocketInterceptorAgent/agentlog.txt
-
--javaagent:/Users/changjoonbaek/github_socketInterceptorAgent/SocketInterceptorAgent/target/SocketInterceptorAgent-1.0-SNAPSHOT.jar=logFile=/Users/changjoonbaek/github_socketInterceptorAgent/SocketInterceptorAgent/agentlog.txt
-
-/Users/changjoonbaek/Library/Java/JavaVirtualMachines/corretto-11.0.20/Contents/Home/bin/java -javaagent:/Users/changjoonbaek/github_socketInterceptorAgent/SocketInterceptorAgent/target/SocketInterceptorAgent-1.0-SNAPSHOT.jar=logFile=/Users/changjoonbaek/github_socketInterceptorAgent/SocketInterceptorAgent/agentlog.txt -classpath /Users/changjoonbaek/github_socketInterceptorAgent/SocketInterceptorAgent/target/classes:/Users/changjoonbaek/.m2/repository/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar:/Users/changjoonbaek/.m2/repository/net/bytebuddy/byte-buddy/1.10.22/byte-buddy-1.10.22.jar:/Users/changjoonbaek/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.22/byte-buddy-agent-1.10.22.jar com.example.app.MyApplication

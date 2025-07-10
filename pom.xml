@@ -43,16 +43,6 @@
               <createDependencyReducedPom>true</createDependencyReducedPom>
               <shadedArtifactAttached>true</shadedArtifactAttached>
               <shadedClassifierName>all</shadedClassifierName>
-              <relocations>
-                <relocation>
-                  <pattern>net.bytebuddy</pattern>
-                  <shadedPattern>my.shaded.bytebuddy</shadedPattern>
-                </relocation>
-                <relocation>
-                  <pattern>com.example.agent</pattern>
-                  <shadedPattern>my.shaded.agent.bytebuddy</shadedPattern>
-                </relocation>
-              </relocations>
             </configuration>
           </execution>
         </executions>

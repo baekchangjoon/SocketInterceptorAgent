@@ -62,3 +62,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Jenv ###
+.java-version
+
+### Output ###
+agentlog.txt
